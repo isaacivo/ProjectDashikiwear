@@ -1,0 +1,57 @@
+/* Import Outfit font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Bootstrap's default base styles will handle reset & common styling */
+
+/* Set default font to Outfit for the whole document */
+body, input, select, textarea, button {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Form elements: tweak to fit Bootstrap styling but use your accent color for focus */
+input.form-control,
+select.form-select,
+textarea.form-control {
+  border: 1px solid #c2c2c2; /* subtle gray border */
+  border-radius: 0.25rem; /* Bootstrap's default */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input.form-control:focus,
+select.form-select:focus,
+textarea.form-control:focus {
+  border-color: #C586A5; /* your purple-pink accent */
+  box-shadow: 0 0 0 0.25rem rgba(197, 134, 165, 0.25); /* subtle purple-pink glow */
+  outline: 0;
+}
+
+/* Active state styling to override Bootstrap's active class if needed */
+.active,
+.nav-link.active,
+.btn.active {
+  background-color: #ffebf5 !important; /* light pink background */
+  border-color: #C586A5 !important; /* purple-pink border */
+  color: #C586A5 !important; /* accent color for text/icons */
+}
+
+/* Optional: customize Bootstrap button styling for your theme */
+.btn-primary {
+  background-color: #C586A5;
+  border-color: #C586A5;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #b1738d; /* slightly darker on hover */
+  border-color: #b1738d;
+}
+
+/* Example: navbar links (if using Bootstrap's .nav-link) */
+.nav-link {
+  color: #414141;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #C586A5;
+}
