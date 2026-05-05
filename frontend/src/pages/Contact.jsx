@@ -33,11 +33,11 @@ const Contact = () => {
           </p>
           <p className="text-muted mb-4">
             Tel: (415) 555-0132 <br />
-            Email: admin@petstore.com
+            Email: admin@dashikiwear.com
           </p>
 
           <p className="fw-semibold text-uppercase text-secondary mb-0">
-            Careers at PetStore
+            Careers at Dashikiwear
           </p>
           <p className="text-muted mb-3">
             Learn more about our teams and job openings.

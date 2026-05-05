@@ -14,7 +14,7 @@ MongoDB
 Bootstrap CSS
 
 Getting Started
-Clone the repo: git clone https://github.com/isaacivo/dbs-ecommerceApp.git
+Clone the repo: git clone https://github.com/isaacivo/ProjectDashikiwear.git
 Install dependencies: npm install
 Start the development server: npm start
 Screenshots

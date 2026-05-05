@@ -11,7 +11,7 @@ import productModel from "../models/productModel.js";
 const addProduct = async (req, res) => {
   try {
     // Destructure product details from request body
-    const { name, description, price, category, subCategory, sizes, bestseller } = req.body;
+    const { name, price, category, subCategory, sizes, bestseller } = req.body;
 
     // Get the uploaded images from the request
     const image1 = req.files.image1 && req.files.image1[0];
@@ -33,7 +33,6 @@ const addProduct = async (req, res) => {
     // Create product data object for database entry
     const productData = {
       name,
-      description,
       category,
       price: Number(price),
       subCategory,
